@@ -153,6 +153,15 @@ h4 {
     margin-bottom: 20px;
 }
 
+
+.contact-content {
+    background-color: rgb(40, 40, 43);
+    width: 100vh;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
 .col-backend {
     width: 100%;
     color: white;
@@ -231,14 +240,27 @@ h4 {
         gap: 15px;
     }
 
+    /* ----- contact ------------ */
+
     .page {
         width: 100%;
+    }
+
+    .tab-contact {
+        margin-left: -80px;
+        width: 100%;
+    }
+
+    .contactus {
+        max-width: 30px;
     }
 
     .contact-content {
         width: 100%;
     }
 
+
+    /* --------------------------- */
     .container-left {
         width: 100%;
         margin-bottom: 10px;
@@ -250,10 +272,23 @@ h4 {
         margin-bottom: 10px;
     }
 
-    .p-project {
+    .project {
+        display: block;
+        margin-bottom: 10px;
         width: 100%;
         height: auto;
     }
+
+    .p-project {
+        width: 100%;
+    }
+
+    .text-font {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
 
     .col-experience {
         width: 100%;
