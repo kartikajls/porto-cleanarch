@@ -1,0 +1,18 @@
+.content-top {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+
+.aboutme {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 150;
+    text-align: justify;
+}

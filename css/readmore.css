@@ -1,0 +1,35 @@
+.content-readmore {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: auto;
+    overflow: hidden;
+}
+
+
+.readmore-content {
+    max-height: 250px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.readmore-content.show {
+    max-height: none;
+}
+
+.readmore-btn:hover {
+    background-color: rgb(228, 107, 7);
+    border-radius: 5px;
+}
+
+.readmore-btn {
+    width: 100px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 600;
+}
