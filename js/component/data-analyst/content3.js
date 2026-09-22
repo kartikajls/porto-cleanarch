@@ -51,7 +51,9 @@ export function Content_3() {
                         Tahun, Produksi, Luas Panen, Curah hujan, Kelembapan, Suhu rata-rata.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Padi/1.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/1.jpg" class="pict-da-kecil">
+                    </div>
 
                     <p class="s-login">
                         Bagian 2 - Data Cleansing:
@@ -62,14 +64,18 @@ export function Content_3() {
                         bisa dilihat masing-masing variabel sudah sesuai dengan tipe dari data.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Padi/2.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/2.jpg" class="pict-da-kecil">
+                    </div>
 
                     <p class="s-login">
                         Proses selanjutnya melihat missing value, 
                         dalam hal ini data terlihat lengkap dan terlihat dari tidak adanya missing value yang ditunjukan.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Padi/3.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/3.jpg" class="pict-da-kecil">
+                    </div>
 
                     <p class="s-login">
                         Proses selanjutnya adalah melihat outlier. outlier merupakan nilai ekstrim atau nilai berbeda 
@@ -78,19 +84,25 @@ export function Content_3() {
                         maksimal di setiap variabelnya.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Padi/4.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/4.jpg" class="pict-da-kecil">
+                    </div>
 
                     <p class="s-login">
                         Dengan menggunakan histogram, dapat mengetahui visualisasi dari outlier tersebut.
                     </p>
                    
-                    <img src="../../../src/asset/da/Dataset Padi/5.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/5.jpg" class="pict-da">
+                    </div>
 
                     <p class="s-login">
                         Menggunakan boxplot , juga bisa mengetahui outlier dengan memvisualisasikannya.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Padi/6.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/6.jpg" class="pict-da">
+                    </div>
 
                     <p class="s-login">
                         Hasilnya dapat diketahui jika variabel Luas Panen terdapat outlier. 
@@ -102,7 +114,9 @@ export function Content_3() {
                         tidak terdapat lagi outlier pada variabel tersebut.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Padi/7.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/7.jpg" class="pict-da">
+                    </div>
                     
                     <p class="s-login">
                         Bagian 3 - Exploratory Data:
@@ -131,7 +145,9 @@ export function Content_3() {
                         seaborn regplot yang menunjukan adanya nilai yang mendekati tren line.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Padi/9.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Padi/9.jpg" class="pict-da-kecil">
+                    </div>
 
                     <p class="s-login">
                         Pada pertanyaan nilai produksi padi tiap provinsi. Dapat dijawab dengan menggunakan 

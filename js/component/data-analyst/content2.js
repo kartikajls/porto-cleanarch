@@ -39,7 +39,9 @@ export function Content_2() {
                         We can analyze average sales per year by grouping transactions from 2013 to 2017.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Store Sales/2.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/2.jpg" class="pict-da">
+                    </div>
 
                     <p class="s-login">
                         We can see that the average transactions per year has been decreased. 
@@ -49,9 +51,13 @@ export function Content_2() {
                         week starting the day after january 6,2013.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Store Sales/3.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/3.jpg" class="pict-da">
+                    </div>
                     <br>
-                    <img src="../../../src/asset/da/Dataset Store Sales/4.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/4.jpg" class="pict-da-kecil">
+                    </div>
 
                     <p class="s-login">
                         The transactions made by store can be seen in this part. 
@@ -59,10 +65,13 @@ export function Content_2() {
                         The store_nbr data identifies the store at which the products are sold. 
                         The store with the number 44 is in the city Quito, Pinchincha, type A, cluster 5.
                     </p>
-
-                    <img src="../../../src/asset/da/Dataset Store Sales/5.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/5.jpg" class="pict-da">
+                    </div>
                     <br>
-                    <img src="../../../src/asset/da/Dataset Store Sales/6.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/6.jpg" class="pict-da">
+                    </div>
 
                     <p class="s-login">
                         The train dataset contain id,date,store_nbr,family,sales,and onpromotion. 
@@ -70,7 +79,9 @@ export function Content_2() {
                         So, it can be conclude that this area has the highest sales on May 2,2016.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Store Sales/7.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/7.jpg" class="pict-da">
+                    </div>
 
                     <h4>ANOVA</h4>
                     <p class="s-login">
@@ -83,14 +94,18 @@ export function Content_2() {
                         PREPARED FOODS, PRODUCE, SCHOOL AND OFFICE SUPPLIES, SEAFOOD. So, first we can group it by family.
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Store Sales/8.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/8.jpg" class="pict-da">
+                    </div>
 
                     <p class="s-login">
                         The result of oneway f test 92057,93 and p value 0. 
                         This result imply each category in family not significantly different based on sales. 
                     </p>
 
-                    <img src="../../../src/asset/da/Dataset Store Sales/9.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Dataset Store Sales/9.jpg" class="pict-da-kecil">
+                    </div>
 
                     <div class="source">
                         <img src="../src/asset/icon/github.png" class="s-source">

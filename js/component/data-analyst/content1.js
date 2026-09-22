@@ -38,8 +38,9 @@ export function Content_1() {
                         berbentuk
                         seperti ini.
                     </p>
-                    
-                    <img src="../../../src/asset/da/Scrapping Data Twitter/2.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Scrapping Data Twitter/2.jpg" class="pict-da">
+                    </div>
                     
                     <h4>Proses Pengolahan Data</h4>
                     <P>Cleaning Data</P>
@@ -60,7 +61,9 @@ export function Content_1() {
                         pada bahasa pemrograman python. Maka hasilnya bisa dilihat seperti dibawah ini.
                     </p>
 
-                    <img src="../../../src/asset/da/Scrapping Data Twitter/3.jpg" class="pict-da">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Scrapping Data Twitter/3.jpg" class="pict-da">
+                    </div>
                     
                     <p class="s-login">
                         Selanjutnya adalah proses normalisasi. Proses ini digunakan untuk menormalisasi tulisan atau
@@ -72,7 +75,9 @@ export function Content_1() {
                         dilakukan.
                     </p>
                     
-                    <img src="../../../src/asset/da/Scrapping Data Twitter/4.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Scrapping Data Twitter/4.jpg" class="pict-da-kecil">
+                    </div>
 
                     <p>Analisis TextBlob</p>
                     <p class="s-login">
@@ -89,7 +94,9 @@ export function Content_1() {
                     </p>
                     <br>
 
-                    <img src="../../../src/asset/da/Scrapping Data Twitter/5.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Scrapping Data Twitter/5.jpg" class="pict-da-kecil">
+                    </div>
                     
                     <p class="s-login">
                         Bisa dilihat dari gambar diatas. Setelah pemilu 2024 berakhir, komentar masyarakat di
@@ -106,7 +113,9 @@ export function Content_1() {
                         menjadi gambar seperti ini.
                     </p>
 
-                    <img src="../../../src/asset/da/Scrapping Data Twitter/6.jpg" class="pict-da-kecil">
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Scrapping Data Twitter/6.jpg" class="pict-da-kecil">
+                    <div>
                     
                     <p>Analisis Sentimen</p>
                     <P class="s-login">
@@ -133,7 +142,10 @@ export function Content_1() {
                         didapat
                         seperti berikut.
                     </P>
-                    <img src="../../../src/asset/da/Scrapping Data Twitter/7.jpg" class="pict-da">
+
+                    <div class="scroll-samping">
+                        <img src="../../../src/asset/da/Scrapping Data Twitter/7.jpg" class="pict-da">
+                    </div>
 
                     <div class="source">
                         <img src="../src/asset/icon/github.png" class="s-source">
