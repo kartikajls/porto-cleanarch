@@ -1,4 +1,6 @@
 .head-profile {
+    display: block;
+    justify-content: center;
     height: 200px;
     width: 150px;
     margin-left: auto;
@@ -26,6 +28,13 @@
     color: white;
 }
 
+.width-job {
+    width: 150px;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+}
+
 
 .job {
     color: white;
@@ -34,19 +43,18 @@
     padding-top: 2px;
     padding-bottom: 5px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(58, 58, 58);
-    width: 150px;
-    border-radius: 5px;
+    margin: 0 auto;
+
+    
 }
 
 .bottom-profile {
+    justify-items: center;
     margin-top: 5px;
-    width: 250px;
+    width: 100%;
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 10px;
+
 }
 
 .col-keterangan {

@@ -1,8 +1,8 @@
 export function Content_2() {
     return `
-    
         <section class="content_2">
             <div class="content-readmore">
+            
                 <h3>Kaggle dataset - Store Sales - Time Series Forecasting</h3>
                 <div class="border"></div>
 

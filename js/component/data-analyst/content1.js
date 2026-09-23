@@ -22,6 +22,7 @@ export function Content_1() {
                         "Ganjar-Pranowo". Kata kunci "Ganjar Pranowo" sempat menjadi tranding topik setelah Pemilu
                         tahun
                         2024 berakhir, tepatnya data ini diambil pada tanggal 15 Maret 2024.
+                        
                     </p>
                     <br>
                     <h4>Data</h4>
@@ -115,7 +116,7 @@ export function Content_1() {
 
                     <div class="scroll-samping">
                         <img src="../../../src/asset/da/Scrapping Data Twitter/6.jpg" class="pict-da-kecil">
-                    <div>
+                    </div>
                     
                     <p>Analisis Sentimen</p>
                     <P class="s-login">
@@ -154,7 +155,8 @@ export function Content_1() {
                                         
                 </div>
 
-                <button class="readmore-btn">Read More >> </button>
+                <button class="readmore-btn">Read More >></button>
+
             </div>
                 
             
