@@ -1,11 +1,3 @@
-.container-left {
-    border: 1px solid black;
-    background-color: rgb(40, 40, 43);
-    max-height: 400px;
-    width: 300px;
-    border-radius: 15px;
-}
-
 .head-profile {
     height: 200px;
     width: 150px;
