@@ -30,14 +30,14 @@
 .job {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 2px;
     padding-bottom: 5px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(58, 58, 58);
-    width: 120px;
+    width: 150px;
     border-radius: 5px;
 }
 
