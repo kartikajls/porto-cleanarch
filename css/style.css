@@ -17,7 +17,6 @@ html {
 body {
     height: auto;
     width: 100%;
-
 }
 
 
@@ -194,6 +193,11 @@ h4 {
     height: auto;
 }
 
+.pict-da-panjang {
+    width: 500px;
+    height: 300px;
+}
+
 /* Source: alamat github*/
 .source {
     display: flex;
@@ -205,6 +209,114 @@ h4 {
 
 /* ============================ */
 @media screen and (max-width: 600px) {
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    nav li {
+        margin-right: 5px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .isi-dropdown {
+        min-width: 160px;
+    }
+
+
+    main {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .main-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    /* ----- contact ------------ */
+
+    .page {
+        width: 100%;
+    }
+
+    .tab-contact {
+        margin-left: -80px;
+        width: 100%;
+    }
+
+    .contactus {
+        max-width: 30px;
+    }
+
+    .contact-content {
+        width: 100%;
+    }
+
+
+    /* --------------------------- */
+    .container-left {
+        width: 100%;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .container-right {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .project {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .p-project {
+        width: 100%;
+    }
+
+    .text-font {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+
+    .col-experience {
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+
+    .full-content {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
 
     nav {
         width: 100%;
