@@ -34,10 +34,15 @@ nav li {
 }
 
 .drop-down:hover ul.isi-dropdown {
-    display: block;
-    background-color: rgb(40, 40, 43);
-    width: auto;
-    padding-left: 6px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 46, 46);
+    width: 400px;
+    margin-top: 8px;
+    margin-left: -245px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(191, 191, 191);
 }
 
 a {
