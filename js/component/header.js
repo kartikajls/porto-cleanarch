@@ -2,7 +2,7 @@ export function Header() {
     return `
         <header class="container-header">
             <nav>
-                <h1>Portfolio Portal</h1>
+                <h1>Portfolio Views</h1>
 
                 <ul>
                     <li><a href="/index.html">Home</a></li>

@@ -4,81 +4,71 @@ export function Content_2() {
         <section class="content_2">
             <div class="content-main">
                 <div class="content-readmore">
-                    <h3>E-comerce with Command-Line Interface</h3>
+                
+                    <h3>Rental Camera</h3>
                     <div class="border"></div>
-                    
                     <div class="readmore-content">
+
                         <div>
                             <p class="s-login">Tech Stack :</p>
                         </div>
+
                         <div class="stack">
                             <p class="p-stack">Go</p>
-                            <p class="p-stack">MySQL</p>
-                            <p class="p-stack">CLI</p>
+                            <p class="p-stack">PostgreSQL</p>
+                            <p class="p-stack">Echo</p>
+                            <p class="p-stack">RESTful API</p>
+                            <p class="p-stack">Swagger</p>
+                            <p class="p-stack">Bcrypt</p>
+                            <p class="p-stack">Gorm</p>
+                            <p class="p-stack">WhatsApp Gateway API</p>
                         </div>
+
                         <p class="s-login">
-                            This project focuses on developing a Clothing e-commerce application using Go and 
-                            a Command-Line Interface (CLI). The application allows users to interact with the system 
-                            directly through the terminal to manage users, orders, products, payment and report. It provides several 
-                            features, such as viewing product information, managing stock, creating orders, and checking 
-                            order details.
+                            The Rental Camera system provides a platform for users to rent cameras based on their needs. 
+                            The main entities in the system are User, Camera, Rental Order, Rental Order Detail, Payment, 
+                            and Top Up. The User entity stores information about registered users, while the Camera entity 
+                            manages available camera data such as camera name, type, price, and stock. The Rental Order 
+                            records each rental transaction, while Rental Order Detail stores the specific cameras 
+                            included in each order.
                         </p>
 
                         <p class="s-login">
-                            The application uses a structured database to store and manage e-commerce data. 
-                            It connects different entities such as users, products, orders, and reports through 
-                            relational database tables. The system also includes CRUD operations for managing product 
-                            data and uses SQL queries to retrieve information and generate order reports. This project 
-                            helps me understand how backend applications communicate with databases and how data flows 
-                            between different parts of an application.
+                            The system allows users to add balance to their accounts through the Top Up feature. 
+                            Users can choose the amount they want to add and make the payment through a bank transfer. 
+                            The Payment entity records the payment information and connects the payment process with the 
+                            user's top-up or rental transaction. After the payment is successfully processed, the user's 
+                            account balance is updated and can be used to complete camera rental transactions.
                         </p>
 
                         <div class="scroll-samping">
-                            <img src="../src/asset/backend/e-comerce/01.png" class="pict-da-panjang">
+                            <img src="../src/asset/backend/rental-camera/ERD.png" class="pict-da-panjang">
                         </div>
 
                         <p class="s-login">
-                            Through this project, I learn how to develop backend functionality using Go, 
-                            implement database operations with a MySQL database, handle user input through a CLI, 
-                            and organize application logic into separate components. I also practice using environment 
-                            variables for database configuration and applying error handling when processing data. 
-                            Overall, this project strengthens my understanding of backend development, MySQL database 
-                            management, and the basic workflow of an e-commerce system.
+                            When users want to rent a camera, they select the available camera and create a Rental Order.
+                            The Rental Order Detail records information about each rented camera, including the selected 
+                            camera, rental quantity, rental duration, and rental price. The system uses the user's 
+                            available balance to process the transaction, allowing the rental payment to be completed 
+                            through the user's account balance. This process connects the User, Camera, Rental Order, 
+                            Rental Order Detail, and Payment entities into one rental workflow.
                         </p>
 
                         <p class="s-login">
-                            The application provides different menus for users and administrators based on their roles. 
-                            Users can view the available clothing catalog, select products, and complete the checkout process 
-                            to purchase clothing items. Users can also access the system report to view relevant information 
-                            about their orders.
-                        </p>
-
-                        <div class="scroll-samping">
-                            <img src="../src/asset/backend/e-comerce/02.png" class="pict-da-normal">
-                        </div>
+                            After a top-up or rental transaction is successfully completed, 
+                            the system sends a WhatsApp notification to the user as a transaction confirmation. 
+                            The notification provides information about the successful top-up or rental, such as the transaction status, 
+                            amount, and rental details. This notification gives users a digital record of their transactions and helps 
+                            them confirm that their balance top-up or camera rental has been processed successfully.
                         
-                        <p class="s-login">
-                            Administrators have additional privileges to manage the clothing catalog and inventory. 
-                            They can add new clothing products, update product information such as stock and price, and 
-                            remove products from the catalog. These features allow administrators to maintain accurate 
-                            and up-to-date product information.
-                        </p>
-
-                        <div class="scroll-samping">
-                            <img src="../src/asset/backend/e-comerce/03.png" class="pict-da-normal">
-                        </div>
-
-                        <p class="s-login">
-                            The system also provides a mandatory reporting menu that allows the application 
-                            to display reports related to users, stock, and orders. After completing their activities, 
-                            both users and administrators can select the exit menu to safely leave the application.
                         </p>
 
                         <div class="source">
                             <img src="../src/asset/icon/github.png" class="s-source">
-                            <a href="https://github.com/kartikajls/ecomerce"
+                            <a href="https://github.com/kartikajls/rent-camera"
                                 class="s-text">Source</a>
                         </div>
+
                     </div>
 
                     <button class="readmore-btn">Read More >> </button>

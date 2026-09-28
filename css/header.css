@@ -38,7 +38,8 @@ nav li {
     justify-content: center;
     background-color: rgb(46, 46, 46);
     width: 400px;
-    margin-top: 8px;
+    margin-top: 7px;
+    padding-top: 5px;
     margin-left: -245px;
     padding-left: 15px;
     border-radius: 10px;

@@ -3,6 +3,8 @@ import { Content_1 } from "./component/backend/content1.js";
 import { Content_2 } from "./component/backend/content2.js";
 import { Content_3 } from "./component/backend/content3.js";
 import { Content_4 } from "./component/backend/content4.js";
+import { Content_5 } from "./component/backend/content5.js";
+
 
 
 import { Footer } from "./component/footer.js";
@@ -15,6 +17,8 @@ document.querySelector("#content_1").innerHTML = Content_1();
 document.querySelector("#content_2").innerHTML = Content_2();
 document.querySelector("#content_3").innerHTML = Content_3();
 document.querySelector("#content_4").innerHTML = Content_4();
+document.querySelector("#content_5").innerHTML = Content_5();
+
 
 
 document.querySelector("#footer").innerHTML = Footer();

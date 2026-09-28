@@ -273,6 +273,7 @@ h4 {
 
     .isi-dropdown {
         min-width: 160px;
+        position: absolute;
     }
 
     .drop-down:hover ul.isi-dropdown {
@@ -300,6 +301,17 @@ h4 {
         flex-direction: column;
         width: 100%;
         gap: 15px;
+    }
+
+    .stack {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-stack {
+        width: auto;
+        height: auto;
     }
 
     /* ----- contact ------------ */

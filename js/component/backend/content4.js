@@ -1,52 +1,114 @@
 export function Content_4() {
     return `
         <section class="content_4">
-            <div class="content-main">
-                <div class="content-readmore">
+         <div class="content-main">
 
-                    <h3>Basic MySQL</h3>
-                    <div class="border"></div>
+            <div class="content-readmore">
 
-                    <div class="readmore-content">
+                <h3>Tour-Guide Booking System</h3>
+                <div class="border"></div>
 
-                        <div>
-                            <p class="s-login">Tech Stack :</p>
-                        </div>
-                        <div class="stack">
-                            <p class="p-stack">MySQL</p>
-                        </div>
-                        <p class="s-login">
-                            In this session, I start learning the basics of MySQL by creating an Entity Relationship Diagram 
-                            (ERD) and understanding how to structure a database properly. I learn how to connect one table
-                            to another using entity relationships, define relationships between data, and organize the 
-                            database structure to make the data more consistent and easier to manage.
-                        </p>
-                        <p class="s-login">
-                            After creating the ERD, I continue by implementing the database structure in MySQL. 
-                            I learn how to create tables, define primary keys and foreign keys, and establish 
-                            relationships between tables using one-to-one, one-to-many, and many-to-many relationships. 
-                            I also practice inserting, updating, and retrieving data using SQL queries to understand how 
-                            the database works in a real application.
-                        </p>
+                <div class="readmore-content">
 
-                        <div class="scroll-samping">
-                            <img src="https://github.com/kartikajls/mysql-basic-learning/blob/main/designERD.png?raw=true" class="pict-da-panjang">
-                        </div>
+                    <div>
+                        <p class="s-login">Tech Stack :</p>
+                    </div>
+                    <div class="stack">
+                        <p class="p-stack">CLI</p>
+                    </div>
 
-                        <p class="s-login">
-                            Overall, this session gives me a better understanding of how databases are 
-                            structured and managed using MySQL. I learn how to design relationships between tables, 
-                            create a well-organized database structure, and work with basic SQL queries. This knowledge 
-                            helps me build a stronger foundation for developing backend applications and managing data 
-                            efficiently in future projects.
-                        </p>
-     
+                    <p class="s-login">
+                        Tour-Guide Booking System is a simple terminal-based program developed using Golang The program
+                        is
+                        used to book tour guide services based on the selected service type and number of
+                        hours. This project serves as a practice project to understand the fundamentals of programming
+                        using
+                        Go.
+                        This project is developed to practice the fundamentals of Golang, particularly the use of
+                        structs,
+                        maps, slices, loops, conditionals, user input, data type conversion, and error handling.
+
+                    </p>
+                    <h4>Feature</h4>
+                    <table>
+                        <tr>
+                            <td>1.</td>
+                            <td>Display the available tour guide services</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Select a tour guide service</td>
+                        </tr>
+                            <td>3.</td>
+                            <td>Select the number of hours</td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Calculate the order subtotal</td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Book multiple services</td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Display the order summary</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Calculate the total payment</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Validate user input</td>
+                        </tr>
+                    </table>
+                    <h4>This project uses several fundamental Go programming concepts:</h4>
+                    <table class="col-backend">
+                        <tr>
+                            <td>Struct</td>
+                        </tr>
+                        <tr>
+                            <td>Map</td>
+                        </tr>
+                        <tr>
+                            <td>Slice</td>
+                        </tr>
+                        <tr>
+                            <td>Function</td>
+                        </tr>
+                        <tr>
+                            <td>For Loop</td>
+                        </tr>
+                        <tr>
+                            <td>If / Else</td>
+                        </tr>
+                        <tr>
+                            <td>break</td>
+                        </tr>
+                        <tr>
+                            <td>continue</td>
+                        </tr>
+                        <tr>
+                            <td>append()</td>
+                        </tr>
+                        <tr>
+                            <td>Error Handling</td>
+                        </tr>
+                    </table>
+
+                    <div class="source">
+                        <img src="../src/asset/icon/github.png" class="s-source">
+                        <a href="https://github.com/kartikajls/dasar-pemrograman-golang/tree/main"
+                            class="s-text">Source</a>
+                    </div>
                     </div>
                     <button class="readmore-btn">Read More >> </button>
 
                 </div>
             </div>
-
+        
+        
         </section>
     
     `;
