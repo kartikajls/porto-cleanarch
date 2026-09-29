@@ -270,7 +270,7 @@ h4 {
 
 
 /* =========== HP ============== */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 667px) {
 
     nav {
         width: 100%;
@@ -612,7 +612,7 @@ h4 {
     }
 
     .bootcamp {
-        display: flex;
+        display: block;
         height: auto;
     }
 
@@ -622,7 +622,7 @@ h4 {
     }
 
     .university {
-        display: flex;
+        display: block;
         padding-left: 0px;
     }
 
