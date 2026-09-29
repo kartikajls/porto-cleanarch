@@ -20,15 +20,16 @@ export function Project() {
 
         
             <div class="p-project">
-                <div>
-                    <img src="src/asset/icon/backend.png" class="icon">
-                </div>
+                
                 <div>
                     <a href="page/backend.html" class="c-link">Backend Development</a>
                     <p class="r-text">
                         Developing reliable and maintainable backend systems, REST APIs, and services using Go,
                         PostgreSQL, and Docker.
                     </p>
+                </div>
+                <div>
+                    <img src="src/asset/icon/backend.png" class="icon">
                 </div>
             </div>
         

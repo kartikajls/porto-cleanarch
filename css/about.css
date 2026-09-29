@@ -1,18 +1,41 @@
-.content-top {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 30px;
-    padding-right: 30px;
-}
-
 .aboutme {
+    margin-top: 40px;
+    padding-left: 180px;
+    padding-right: 15px;
     width: 100%;
     height: auto;
     color: white;
     font-family: "Manrope", sans-serif;
     font-style: normal;
     font-weight: 150;
+    line-height: 2;
     text-align: justify;
+}
+
+.intro {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 180px;
+    font-family: "Manrope", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.width-job {
+    width: 155px;
+    margin-left: 180px;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+}
+
+.job {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: auto;
 }

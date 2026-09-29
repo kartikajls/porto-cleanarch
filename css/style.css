@@ -17,8 +17,12 @@ html {
 body {
     height: auto;
     width: 100%;
+    background-color: white;
 }
 
+.thebody {
+    background-color: rgb(46, 46, 46);
+}
 
 main {
     display: flex;
@@ -30,6 +34,16 @@ main {
     padding-bottom: 50px;
     margin: 0 auto;
 }
+
+.main-page {
+    display: block;
+    padding-top: 30px;
+}
+
+.second-page {
+    padding-top: 30px;
+}
+
 
 table {
     width: 300px;
@@ -47,12 +61,15 @@ td {
     padding-bottom: 5px;
 }
 
-.container-left {
-    border: 1px solid black;
+
+.container-top {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
     background-color: rgb(46, 46, 46);
-    max-height: 400px;
-    width: 450px;
-    border-radius: 15px;
+    height: 550px;
+    width: 100%;
+    margin-bottom: 125px;
 }
 
 .full-content {
@@ -62,10 +79,9 @@ td {
     border-radius: 15px;
 }
 
-.container-right {
-    border: 1px solid black;
+.container-bottom {
     background-color: rgb(46, 46, 46);
-    height: 100%;
+    height: auto;
     width: 100%;
     max-width: 1200px;
     padding-top: 5px;
@@ -79,6 +95,10 @@ td {
 h2 {
     color: white;
     font-weight: 300;
+}
+
+h3 {
+    color: black;
 }
 
 /*  Border untuk Judul*/
@@ -114,7 +134,7 @@ h2 {
 
 
 .s-login {
-    color: white;
+    color: black;
     font-family: sans-serif;
     padding-top: 8px;
     padding-bottom: 5px;
@@ -155,7 +175,7 @@ h4 {
 }
 
 .main-content {
-    background-color: rgb(46, 46, 46);
+    background-color: white;
     width: 100vh;
     height: auto;
     border-radius: 15px;
@@ -164,7 +184,7 @@ h4 {
 
 
 .contact-content {
-    background-color: rgb(46, 46, 46);
+    background-color: white;
     width: 100vh;
     height: auto;
     border-radius: 15px;
@@ -173,7 +193,7 @@ h4 {
 
 .col-backend {
     width: 100%;
-    color: white;
+    color: black;
     margin-bottom: 10px;
     line-height: 1.5;
     padding-left: 10px;
@@ -234,7 +254,7 @@ h4 {
 
 .p-stack {
     font-family: "Monstreat";
-    color: white;
+    color: black;
     font-size: 14px;
     padding-top: 8px;
     padding-left: 5px;
@@ -249,7 +269,7 @@ h4 {
 }
 
 
-/* ============================ */
+/* =========== HP ============== */
 @media screen and (max-width: 600px) {
 
     nav {
@@ -291,6 +311,106 @@ h4 {
         padding: 15px;
     }
 
+    .pict-profile {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-page {
+        width: 100%;
+    }
+
+    .container-top {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .intro {
+        padding-left: 0px;
+    }
+
+    .aboutme {
+        padding-left: 0px;
+        height: auto;
+    }
+
+    .width-job {
+        margin-left: 0px;
+    }
+
+    .bottom-profile {
+        display: block;
+        padding-left: 0px;
+        height: auto;
+    }
+
+    .col-keterangan {
+        padding-left: 0px;
+    }
+
+    .container-bottom {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon-unair {
+        width: 200px;
+        height: 200px;
+        margin-left: 55px;
+    }
+
+    .project {
+        padding-left: 0px;
+    }
+
+    .education {
+        display: block;
+    }
+
+    .bootcamp {
+        display: block;
+        height: auto;
+    }
+
+    .col-education {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .university {
+        display: block;
+        padding-left: 0px;
+    }
+
+    .text-font {
+        font-weight: 400;
+    }
+
+    .text-font2 {
+        font-size: 12px;
+    }
+
+    .course-hacktiv8 {
+        width: 100%;
+        padding-right: 2px;
+        gap: 2px;
+    }
+
+    .course-hack {
+        font-size: 12px;
+    }
+
     .main-content {
         width: 100%;
         height: auto;
@@ -313,6 +433,12 @@ h4 {
         width: auto;
         height: auto;
     }
+
+    .p-course {
+        width: auto;
+    }
+
+
 
     /* ----- contact ------------ */
 
@@ -400,6 +526,7 @@ h4 {
 
     .isi-dropdown {
         min-width: 160px;
+        position: absolute;
     }
 
     .drop-down:hover ul.isi-dropdown {
@@ -417,6 +544,106 @@ h4 {
         padding: 15px;
     }
 
+    .pict-profile {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-page {
+        width: 100%;
+    }
+
+    .container-top {
+        display: block;
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .intro {
+        padding-left: 0px;
+    }
+
+    .aboutme {
+        padding-left: 0px;
+        height: auto;
+    }
+
+    .width-job {
+        margin-left: 0px;
+    }
+
+    .bottom-profile {
+        display: block;
+        padding-left: 0px;
+        height: auto;
+    }
+
+    .col-keterangan {
+        padding-left: 0px;
+    }
+
+    .container-bottom {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon-unair {
+        width: 200px;
+        height: 200px;
+        margin-left: 55px;
+    }
+
+    .project {
+        padding-left: 0px;
+    }
+
+    .education {
+        display: block;
+    }
+
+    .bootcamp {
+        display: flex;
+        height: auto;
+    }
+
+    .col-education {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .university {
+        display: flex;
+        padding-left: 0px;
+    }
+
+    .text-font {
+        font-weight: 400;
+    }
+
+    .text-font2 {
+        font-size: 12px;
+    }
+
+    .course-hacktiv8 {
+        width: 100%;
+        padding-right: 2px;
+        gap: 2px;
+    }
+
+    .course-hack {
+        font-size: 12px;
+    }
+
     .main-content {
         width: 100%;
         height: auto;
@@ -428,6 +655,23 @@ h4 {
         width: 100%;
         gap: 15px;
     }
+
+    .stack {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-stack {
+        width: auto;
+        height: auto;
+    }
+
+    .p-course {
+        width: auto;
+    }
+
+
 
     /* ----- contact ------------ */
 
